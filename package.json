@@ -26,10 +26,15 @@
     "@types/express": "^4.17.14",
     "@types/jasmine": "^4.3.0",
     "@types/node": "^18.11.7",
+    "@types/pg": "^8.6.5",
     "@types/prettier": "^2.7.1",
     "@types/supertest": "^2.0.12",
     "@typescript-eslint/eslint-plugin": "^5.41.0",
     "@typescript-eslint/parser": "^5.41.0",
+    "body-parser": "^1.20.1",
+    "db-migrate": "^0.11.13",
+    "db-migrate-pg": "^1.2.2",
+    "dotenv": "^16.0.3",
     "eslint": "^8.26.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
@@ -38,9 +43,12 @@
     "nodemon": "^2.0.20",
     "prettier": "^2.7.1",
     "supertest": "^6.3.1",
+    "ts-node": "^10.9.1",
+    "tsc-watch": "^5.0.3",
     "typescript": "^4.8.4"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "pg": "^8.8.0"
   }
 }
